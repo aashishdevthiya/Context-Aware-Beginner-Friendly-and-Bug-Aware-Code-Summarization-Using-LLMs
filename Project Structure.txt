@@ -1,0 +1,9 @@
+code_summarizer/
+├── main.py                 # Entry point, orchestrates everything
+├── context_extractor.py   # AST-based dependency & cross‑file context
+├── bug_detector.py         # Rule‑based bug/security warnings
+├── summarizer.py           # LLM prompt generation + inference
+├── evaluation.py           # Readability, bug accuracy, human eval helpers
+├── rag_retriever.py        # Optional FAISS/LangChain RAG module
+├── requirements.txt        # Python dependencies
+└── README.md               # Setup, usage, and requirements
